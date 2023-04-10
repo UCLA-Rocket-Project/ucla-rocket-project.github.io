@@ -19,9 +19,9 @@
 
 /* Colors */
 :root {
-  --color-default: #364d59;
-  --color-primary: #feb900;
-  --color-secondary: #52565e;
+  --color-default: #1b2f51;
+  --color-primary: #ffb81c;
+  --color-secondary: #1b2f51;
 }
 
 /* Smooth scroll behavior */
@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #ffc732;
+  color: #ffd06f;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   position: relative;
-  color: #2e3135;
+  color: var(--color-secondary);
 }
 
 .section-header h2:before,
@@ -189,7 +189,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ffc732;
+  background: #ffd06f;
   color: #fff;
 }
 
@@ -1023,13 +1023,13 @@ section {
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: var(--color-primary);
   margin: 0 1px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #ffd565;
+  color: var(--color-primary);
   font-size: 26px;
   line-height: 0;
 }
@@ -1538,7 +1538,7 @@ section {
 
 .project-details .portfolio-description .testimonial-item .quote-icon-left,
 .project-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #ffd565;
+  color: #ffd06f;
   font-size: 26px;
   line-height: 0;
 }
@@ -2669,4 +2669,8 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+.footer .footer-legal .credits a:hover {
+  color: #ffd06f;
 }
