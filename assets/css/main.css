@@ -1872,6 +1872,11 @@ section {
   z-index: 2;
 }
 
+.hero .info .quote-icon-right {
+  display: inline-block;
+  transform: scale(-1, -1);
+}
+
 @media (max-width: 768px) {
   .hero .info {
     padding: 0 50px;
@@ -2653,8 +2658,7 @@ section {
 }
 
 .footer .footer-legal .copyright {
-  padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 0px;
 }
 
 .footer .footer-legal .credits {
