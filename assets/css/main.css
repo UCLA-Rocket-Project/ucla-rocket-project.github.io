@@ -1096,7 +1096,7 @@ section {
 .alt-services .img-bg {
   background-size: contain;
   background-position: center center;
-  /* min-height: 400px; */
+  min-height: 400px;
 }
 
 .alt-services h3 {
