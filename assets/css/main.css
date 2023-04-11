@@ -1094,7 +1094,7 @@ section {
 # Alt Services Section
 --------------------------------------------------------------*/
 .alt-services .img-bg {
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center center;
   /* min-height: 400px; */
 }
