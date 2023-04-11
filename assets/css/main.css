@@ -1096,6 +1096,7 @@ section {
 .alt-services .img-bg {
   background-size: contain;
   background-position: center center;
+  background-repeat:no-repeat
   /* min-height: 400px; */
 }
 
