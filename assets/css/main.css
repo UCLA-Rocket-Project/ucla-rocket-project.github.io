@@ -1939,7 +1939,17 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.2);
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.45) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
 }
 
 .feature-section .container {
