@@ -1972,7 +1972,7 @@ section {
 
 .feature-section h2 {
   color: #fff;
-  font-size: clamp(36px, 8vw, 110px);
+  font-size: clamp(36px, 7vw, 110px);
   font-weight: 1000;
   letter-spacing: 0.04em;
   line-height: 1.0;
