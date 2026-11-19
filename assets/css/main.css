@@ -1954,7 +1954,7 @@ section {
 
 .feature-section h1 {
   color: #fff;
-  font-size: clamp(30px, 8vw, 110px);
+  font-size: clamp(20px, 8vw, 110px);
   font-weight: 600;
   letter-spacing: 0.05em;
   line-height: 1.05;
