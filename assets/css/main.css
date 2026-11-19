@@ -1892,13 +1892,20 @@ section {
   margin-top: 24px;
   display: flex;
   align-items: center;
-  gap: 100px;               /* space between the logos */
+  justify-content: center;
+  gap: 100px;
+  width: max-content;   /* don't shrink to the leftover space */
 }
 
 .hero .hero-logo {
   height: 40px;
   width: auto;
   max-width: none;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .hero .hero-logos { gap: 40px; }
 }
 
 @media (max-width: 768px) {
