@@ -364,7 +364,7 @@ section {
     font-weight: 900;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
     text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
   }
 
