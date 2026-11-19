@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Roboto", sans-serif;
-  --font-secondary: "Work Sans", sans-serif;
+  --font-default: "Google Sans Flex", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-primary: "Google Sans Flex", sans-serif;
+  --font-secondary: "Google Sans Flex", sans-serif;
 }
 
 /* Colors */
@@ -305,6 +305,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: 0.15em;   /* <-- add this */
     color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     white-space: nowrap;
