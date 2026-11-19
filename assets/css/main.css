@@ -1893,7 +1893,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 40px;
   width: max-content;   /* don't shrink to the leftover space */
 }
 
