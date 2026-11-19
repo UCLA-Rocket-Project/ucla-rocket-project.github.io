@@ -305,7 +305,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0.25em;   /* <-- add this */
+    letter-spacing: 0.25em; 
     color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     white-space: nowrap;
@@ -337,8 +337,8 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: transparent;
+    box-shadow: none;
     transition: 0.3s;
   }
 
@@ -348,10 +348,11 @@ section {
 
   .navbar .dropdown ul a {
     padding: 10px 20px;
-    font-size: 15px;
-    text-transform: none;
-    color: var(--color-default);
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.25em; 
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
   }
 
   .navbar .dropdown ul a i {
