@@ -1943,9 +1943,13 @@ section {
 }
 
 .feature-section .container {
-  position: relative;   /* sits above the overlay */
+  position: relative;
   z-index: 1;
-  text-align: left;
+  display: flex;
+  justify-content: space-between;  /* text left, button right */
+  align-items: flex-end;           /* align both to the bottom */
+  gap: 24px;
+  flex-wrap: wrap;                 /* stacks on narrow screens */
 }
 
 .feature-section h1 {
@@ -1954,7 +1958,7 @@ section {
   font-weight: 600;
   letter-spacing: 0.05em;
   line-height: 1.05;
-  margin: 0 0 32px 0;
+  margin: 0 0 0 0;
 }
 
 .feature-btn {
