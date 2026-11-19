@@ -1866,8 +1866,9 @@ section {
 
 .hero .info h2 {
   color: #fff;
-  font-size: 150px;
+  font-size: clamp(150px, 7vw, 110px);
   font-weight: 500;
+  letter-spacing: 0.09em;
   line-height: 1.05;
   margin: 0;
   padding: 0;
@@ -1895,14 +1896,10 @@ section {
 }
 
 @media (max-width: 768px) {
-  .hero .info h2 { font-size: 44px; }
+  .hero .info h2 { font-size: 44px; } 
   .hero .hero-logo { height: 32px; }
 }
-.hero-title h2 {
-  letter-spacing: 0.09em;   /* spacing between letters */
-  font-weight: 500;        /* boldness */
-  font-size: 200px;       /* size */
-}
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
