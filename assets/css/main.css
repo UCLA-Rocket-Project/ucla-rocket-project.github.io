@@ -1928,7 +1928,7 @@ section {
   min-height: 500px;
   padding: 80px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1942,13 +1942,14 @@ section {
   background: rgba(0, 0, 0, 0.45);
 }
 
-.feature-section h1 {
+.feature-section h2 {
   color: #fff;
-  font-size: clamp(20px, 8vw, 110px);
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  line-height: 1.05;
-  margin: 0 0 18px 0;
+  font-size: clamp(100px, 7vw, 110px);
+  font-weight: 1000;
+  letter-spacing: 0.04em;
+  line-height: 1.0;
+  margin: 0;
+  padding: 0;
 }
 
 .feature-btn {
