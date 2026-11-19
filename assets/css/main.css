@@ -2559,18 +2559,10 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
-  background-size: cover;
+  background: #000;
   font-size: 14px;
-  padding: 80px 0 60px 0;
+  padding: 30px 0;
   position: relative;
-}
-
-.footer:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  inset: 0;
 }
 
 .footer .footer-content .footer-info {
@@ -2694,3 +2686,22 @@ section {
 .video {
   padding-bottom: 50px;
 }
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+.footer-socials a {
+  font-size: 24px;
+  color: #fff;
+  line-height: 1;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  color: var(--color-primary);
+}
+
