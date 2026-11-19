@@ -2644,7 +2644,8 @@ section {
 }
 
 .footer .footer-legal .copyright {
-  padding-top: 0px;
+  padding-top: 0;
+  margin-bottom: 16px;  /* gap between the text and the icons */
 }
 
 .footer .footer-legal .credits {
@@ -2689,7 +2690,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 12px;
+  margin: 0 12px;
   color: #fff;
 }
 
