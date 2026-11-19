@@ -1866,10 +1866,10 @@ section {
 
 .hero .info h2 {
   color: #fff;
-  font-size: clamp(150px, 7vw, 110px);
-  font-weight: 500;
-  letter-spacing: 0.09em;
-  line-height: 1.05;
+  font-size: clamp(100px, 7vw, 110px);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.0;
   margin: 0;
   padding: 0;
 }
