@@ -1899,8 +1899,8 @@ section {
   .hero .hero-logo { height: 32px; }
 }
 .hero-title h2 {
-  letter-spacing: 0.1em;   /* spacing between letters */
-  font-weight: 700;        /* boldness */
+  letter-spacing: 0.8em;   /* spacing between letters */
+  font-weight: 600;        /* boldness */
   font-size: 2.5rem;       /* size */
 }
 /*--------------------------------------------------------------
