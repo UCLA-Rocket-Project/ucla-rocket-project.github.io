@@ -1970,6 +1970,12 @@ section {
   );
 }
 
+@media (max-width: 768px) {
+  .feature-section::before {
+    background: rgba(0, 0, 0, 0.6);
+  }
+}
+
 .feature-section h2 {
   color: #fff;
   font-size: clamp(36px, 7vw, 110px);
