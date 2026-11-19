@@ -2699,6 +2699,7 @@ section {
   color: #fff;
   line-height: 1;
   transition: 0.3s;
+  margin: 0 12px;
 }
 
 .footer-socials a:hover {
