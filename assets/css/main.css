@@ -1934,6 +1934,12 @@ section {
   background-repeat: no-repeat;
 }
 
+.feature-section .container {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}
+
 /* dark overlay so the white text stays readable */
 .feature-section::before {
   content: "";
@@ -1946,16 +1952,10 @@ section {
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.75) 0%,
-    rgba(0, 0, 0, 0.45) 40%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.45) 25%,
+    rgba(0, 0, 0, 0) 50%
   );
 }
-}
-
-.feature-section .container {
-  position: relative;
-  z-index: 1;
-  text-align: left;
 }
 
 .feature-section h2 {
