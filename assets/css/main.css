@@ -1965,7 +1965,7 @@ section {
   background: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.85) 0%,
-    rgba(0, 0, 0, 0.45) 35%,
+    rgba(0, 0, 0, 0.55) 35%,
     rgba(0, 0, 0, 0) 70%
   );
 }
