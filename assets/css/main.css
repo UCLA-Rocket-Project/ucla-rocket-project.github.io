@@ -1926,7 +1926,7 @@ section {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  padding: 0;
+  padding: 80px;
   display: flex;
   align-items: flex-end;
   background-size: cover;
@@ -1963,7 +1963,7 @@ section {
 
 .feature-btn {
   display: inline-block;
-  padding: 14px 36px;
+  padding: 36px 36px;
   border: 2px solid #fff;
   color: #fff;
   font-size: 13px;
