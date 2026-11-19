@@ -1922,6 +1922,57 @@ section {
   60% { transform: translate(-50%, -5px); }
 }
 
+.feature-section {
+  position: relative;
+  min-height: 80vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* dark overlay so the white text stays readable */
+.feature-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.feature-section .container {
+  position: relative;   /* sits above the overlay */
+  z-index: 1;
+  text-align: left;
+}
+
+.feature-section h1 {
+  color: #fff;
+  font-size: clamp(44px, 8vw, 110px);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.05;
+  margin: 0 0 32px 0;
+}
+
+.feature-btn {
+  display: inline-block;
+  padding: 14px 36px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.feature-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
