@@ -362,7 +362,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-primary);
+    color: var(#fff);
   }
 
   .navbar .dropdown:hover>ul {
