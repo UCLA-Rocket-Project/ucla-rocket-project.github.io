@@ -1892,7 +1892,7 @@ section {
   margin-top: 24px;
   display: flex;
   align-items: center;
-  gap: 24px;               /* space between the logos */
+  gap: 100px;               /* space between the logos */
 }
 
 .hero .hero-logo {
