@@ -1948,7 +1948,7 @@ section {
   text-align: left;
 }
 
-.feature-section .info h2 {
+.feature-section h2 {
   color: #fff;
   font-size: clamp(100px, 7vw, 110px);
   font-weight: 1000;
