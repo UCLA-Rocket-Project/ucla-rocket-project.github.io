@@ -1960,7 +1960,7 @@ section {
 
 .feature-section p {
   color: #fff;
-  font-size: clamp(10px, 7vw, 8px);
+  font-size: clamp(10px, 10px, 8px);
   line-height: 1.0;
   margin: 0;
   padding: 0;
