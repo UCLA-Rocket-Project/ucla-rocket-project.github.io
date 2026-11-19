@@ -1942,23 +1942,13 @@ section {
   background: rgba(0, 0, 0, 0.45);
 }
 
-.feature-section .container {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;  /* text left, button right */
-  align-items: flex-end;           /* align both to the bottom */
-  gap: 24px;
-  flex-wrap: wrap;                 /* stacks on narrow screens */
-}
-
 .feature-section h1 {
   color: #fff;
   font-size: clamp(20px, 8vw, 110px);
   font-weight: 600;
   letter-spacing: 0.05em;
   line-height: 1.05;
-  margin: 0 0 0 0;
+  margin: 0 0 18px 0;
 }
 
 .feature-btn {
