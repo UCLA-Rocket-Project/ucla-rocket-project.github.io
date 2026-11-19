@@ -1942,6 +1942,12 @@ section {
   background: rgba(0, 0, 0, 0.45);
 }
 
+.feature-section .container {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+}
+
 .feature-section .info h2 {
   color: #fff;
   font-size: clamp(100px, 7vw, 110px);
