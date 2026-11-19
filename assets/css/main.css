@@ -206,7 +206,7 @@ section {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: #fff;
+  background: #000;
   transition: all 0.6s ease-out;
 }
 
@@ -215,8 +215,8 @@ section {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #fff;
-  border-color: var(--color-primary) transparent var(--color-primary) transparent;
+  border: 6px solid #000;
+  border-color: #fff transparent #fff transparent;
   border-radius: 50%;
   width: 60px;
   height: 60px;
