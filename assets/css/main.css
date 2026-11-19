@@ -1884,12 +1884,18 @@ section {
   display: inline-block;
 }
 
-.hero .hero-logo {
+.hero .hero-logos {
   position: absolute;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;               /* space between the logos */
+}
+
+.hero .hero-logo {
   height: 40px;
   width: auto;
   max-width: none;
